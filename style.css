@@ -1,0 +1,83 @@
+body{
+    background-color: lightgray;
+    margin: auto;
+}
+#welcome{
+    background-image: url("Assets/mount_baldy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 30s infinite ease-in-out;
+    height:100%;
+    width:100%
+}
+#main-page{
+    background-image: linear-gradient(180deg, chocolate, transparent);
+    text-align: center;
+}
+#title-header{
+    text-align:center;
+}
+
+#image-logo{
+    float:left;
+    position:absolute;
+    margin: 20px 0 0 25px;
+}
+#com-name{
+    color:white;
+    padding-top: 10px;
+}
+
+.page-button{
+    background-color: coral;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10;
+}
+.page-button:hover{
+    box-shadow: 5px 5px 5px black;
+    padding: 12px;
+}
+
+@keyframes change {
+    0% {
+      background-image: url('Assets/mount_baldy.jpg');
+    }
+    20%{
+        background-image: url('Assets/grand_lake.jpg');
+    }
+    40%{
+        background-image: url('Assets/grand_lake_2.jpg');
+    }
+    60%{
+        background-image: url('Assets/mount_baldy.jpg');
+    }
+    80%{
+        background-image: url('Assets/grand_lake.jpg');
+    }
+    100%{
+        background-image: url('Assets/grand_lake_2.jpg');
+    }
+}
+
+
+
+/* END OF WELCOMING PAGE
+
+
+START OF SCROLLED VIEWS*/
+
+
+
+
+
+
+
+
+
+
